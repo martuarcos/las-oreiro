@@ -1,0 +1,154 @@
+h1{
+ color: red;
+ font-style: oblique;
+ font-family: 'Times New Roman', Times, serif;
+ text-align: center;
+ font-size: 24px;
+}
+
+h2{
+ text-align: center;
+ margin: 10px;
+ background-color: firebrick;
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 20px;
+ }
+
+ header {
+   position: sticky;
+   top: 0;
+   padding: 5px;
+   z-index: 100;
+}
+
+header .header-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+
+@media (min-width: 768px) {
+   header .header-container {
+      flex-direction: row;
+   }
+}
+
+header .header-navigation {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 0;
+ }
+
+ @media (min-width: 768px) {
+   header .header-navigation {
+      flex-direction: row;
+   }
+}
+
+ header .header-navigation .logo {
+   display: flex;
+   align-items: center;
+ }
+
+ header .header-navigation li {
+   list-style: none;
+   margin: 0 10px;
+ }
+
+ header .header-navigation a {
+   text-decoration: none;
+   color: black;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 20px;
+ }
+
+.cambio-tamaño{
+ font-size: larger;
+ font-weight: 800;
+ font-family: 'Times New Roman', Times, serif;
+ text-align: center;
+ }
+
+ .formulario-color{
+ background-color: wheat;
+ font-family: 'Times New Roman', Times, serif;
+}
+
+.logo-tamaño{
+ height: 100%;
+ max-width: 150px;
+ max-height: 100%;
+}
+
+.logo-color{
+ font-size: 20px;
+ color: black;
+}
+
+.fondo-bordo{
+ background-color: firebrick;
+ font-style: oblique;
+ font-family: 'Times New Roman', Times, serif;
+}
+
+nav a img{
+   margin-right: 10px;
+  }
+
+
+.boton-color:hover{
+ background-color: wheat;
+ }
+
+.card-img-top{
+ height: 100%;
+ max-width: 250px;
+ max-height: 100%;
+ }
+
+.d-block{
+ height: 900%;
+ max-width: 800px;
+ max-height: 900%;
+ }
+ .grid-container {
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr;
+   gap: 10px;
+}
+
+@media (min-width: 768px) {
+   .grid-container {
+      grid-template-columns: 1fr 1fr 1fr;
+   }
+}
+
+.grid-item{
+ font-style: oblique;
+ font-family: 'Times New Roman', Times, serif;
+ text-align: center;
+}
+
+.card-img-top{
+ height: 100%;
+ max-width: 470px;
+ max-height: 100%; 
+}
+.carousel.slide.carousel-fade {
+   max-width: 1280px;
+   margin: auto;
+}
+
+.carousel-control-prev .carousel-control-prev-icon {
+   background: red;
+   padding: 10px;
+}
+
+.carousel-control-next .carousel-control-next-icon {
+   background: red;
+   padding: 10px;
+}
