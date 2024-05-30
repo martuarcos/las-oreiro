@@ -1,57 +1,63 @@
-nav a img{
-    margin-right: 10px;
+section {
+ .carousel.slide.carousel-fade{
+   max-width: 1280px;
+   margin: auto;
+
+ .d-block {
+   height: 900%;
+   max-width: 800px;
+   max-height: 900%;  
    }
+
+ .carousel-control-prev .carousel-control-prev-icon {
+   background: red;
+   padding: 10px;
+   }
+
+ .carousel-control-next .carousel-control-next-icon {
+   background: red;
+   padding: 10px;
+   }
+}
+}
+
+nav a img{
+  margin-right: 10px;
+  }
  
- 
- .boton-color:hover{
+.boton-color:hover{
   background-color: wheat;
   }
  
- .card-img-top{
-  height: 100%;
-  max-width: 250px;
-  max-height: 100%;
+.card-img-top{
+  @extend %img;
+  
+  /*height: 100%;
+  max-width: 150px;
+  max-height: 100%;*/
   }
  
- .d-block{
-  height: 900%;
-  max-width: 800px;
-  max-height: 900%;
- }
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px;
+  }
 
-  .grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    gap: 10px;
- }
- .grid-item{
-    font-style: oblique;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-   }
+.grid-item{
+  font-style: oblique;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  }
    
-   .card-img-top{
-    height: 100%;
-    max-width: 470px;
-    max-height: 100%; 
-   }
-   .carousel.slide.carousel-fade {
-      max-width: 1280px;
-      margin: auto;
-   }
-   
-   .carousel-control-prev .carousel-control-prev-icon {
-      background: red;
-      padding: 10px;
-   }
-   
-   .carousel-control-next .carousel-control-next-icon {
-      background: red;
-      padding: 10px;
-   }
-   .formulario-color{
-    background-color: wheat;
-    font-family: 'Times New Roman', Times, serif;
-   }
+.card-img-top{
+  height: 100%;
+  max-width: 470px;
+  max-height: 100%; 
+  }
+  
+.formulario-color{
+  background-color: wheat;
+  font-family: 'Times New Roman', Times, serif;
+  }
    
